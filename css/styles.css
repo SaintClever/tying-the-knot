@@ -1,0 +1,35 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('..images/tying_the_knot_hero_0.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    /* background-color: #c3c9db; */
+    /* background-color: #ebedf9; */
+    /* background-color: #e5e6f9; */
+    /* background-color: #8064A2; */
+}
+
+
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-primary {
+    color: grey;
+    background-color: #c3c9db !important;
+    border: none;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #8064A2 !important;
+    border: none;
+}
+
+.custom-card {
+    border: none;
+    border-radius: 25px;
+    background-color: #e5e6f9;
+}
