@@ -11,6 +11,13 @@ body {
 }
 
 
+.mobile-hero {
+    background-image: url('../img/tie-the-knot_0.png');
+    height: 80vh;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
 
 .btn:focus {
     outline: none;
@@ -32,4 +39,17 @@ body {
     border: none;
     border-radius: 25px;
     background-color: #e5e6f9;
+}
+
+.custom-card img {
+    border-radius: 25px;
+}
+
+.fa {
+    font-size: 15px;
+}
+
+.custom-title {
+    font-weight: bold;
+    color: #8064A2;
 }
