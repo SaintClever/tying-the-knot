@@ -1,6 +1,5 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-image: url('..images/tying_the_knot_hero_0.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -10,13 +9,40 @@ body {
     /* background-color: #8064A2; */
 }
 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+    .custom-title {font-size: 1.5rem;} /*1rem = 16px*/
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+    .custom-title {font-size: 2rem;} /*1rem = 16px*/
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .custom-title {font-size: 2.5rem;} /*1rem = 16px*/
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .custom-title {font-size: 3rem;} /*1rem = 16px*/
+}
+
 
 .mobile-hero {
-    background-image: url('../img/tie-the-knot_0.png');
-    height: 80vh;
+    background-image: url('../img/tying_the_knot_hero_mobile.png');
+    height: 85vh;
+    background-color: #ffffff;
     background-repeat: no-repeat;
     color: #ffffff;
 }
+
 
 
 .btn:focus {
@@ -25,7 +51,7 @@ body {
 }
 
 .btn-primary {
-    color: grey;
+    color: #343b40;
     background-color: #c3c9db !important;
     border: none;
 }
@@ -35,10 +61,15 @@ body {
     border: none;
 }
 
+.custom-card-head {
+    background-color: #8064A2;
+    color: #ffffff;
+}
+
 .custom-card {
     border: none;
     border-radius: 25px;
-    background-color: #e5e6f9;
+    /* background-color: #e5e6f9; */
 }
 
 .custom-card img {
@@ -52,4 +83,10 @@ body {
 .custom-title {
     font-weight: bold;
     color: #8064A2;
+}
+
+a, a:hover {
+    color: #9c7bc5;
+    text-decoration: none;
+    font-weight: bold;
 }
