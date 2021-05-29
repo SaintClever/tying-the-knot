@@ -34,11 +34,8 @@ Bootstrap 4 breakpoints
     .custom-title {font-size: 3rem;} /*1rem = 16px*/
 }
 
-
 .mobile-hero {
-    background-image: url('../img/tying_the_knot_hero_mobile.png');
-    height: 85vh;
-    background-color: #ffffff;
+    background-color: #343b40;
     background-repeat: no-repeat;
     color: #ffffff;
 }
