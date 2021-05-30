@@ -35,12 +35,10 @@ Bootstrap 4 breakpoints
 }
 
 .mobile-hero {
-    background-color: #343b40;
-    background-repeat: no-repeat;
+    background-color: #ffffff;
+    /* background-repeat: no-repeat; */
     color: #ffffff;
 }
-
-
 
 .btn:focus {
     outline: none;
